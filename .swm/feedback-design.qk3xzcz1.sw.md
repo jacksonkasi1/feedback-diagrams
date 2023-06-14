@@ -71,8 +71,6 @@ K -->| | M(linked)
 
 # Feedback App 🖥️
 
-<br/>
-
 ## Dashboard Page
 
 *   total feedback
@@ -84,7 +82,8 @@ K -->| | M(linked)
 *   current active campaign
 
 *   top 5 campaign
-<br/>
+
+    <br/>
 
 feedback analyze counts chart:
 
@@ -114,17 +113,115 @@ feedback analyze counts chart:
 
 <br/>
 
-| Plan      | Campaign Limit       | Custom Domain       |
-|-----------|----------------------|---------------------|
-| Free      | 1 campaign only      | Not available       |
-| Premium   | Unlimited campaigns  | Not available       |
-| Business  | Unlimited campaigns  | Custom domain (⚠️ holding) |
+|Plan    |Campaign Limit     |Custom Domain             |
+|--------|-------------------|--------------------------|
+|Free    |1 campaign only    |Not available             |
+|Premium |Unlimited campaigns|Not available             |
+|Business|Unlimited campaigns|Custom domain (⚠️ holding)|
 
 <br/>
 
+## payment gateways
+
+*   razorpay
 <br/>
 
-## Third party integrations
+# Create Campaign Page
+
+<br/>
+
+## Questions Types: 📖
+
+*   welcome screen
+
+*   radio option question
+
+*   multi check box option question
+
+*   start rating option question
+
+*   emoji reaction option question
+
+*   form entry
+
+    *   name
+
+    *   email
+
+    *   age
+
+    *   gender
+
+    *   description
+
+*   nsp option question `0 - 10 option`
+
+## Questions options / features: ✨
+
+*   duplicate question
+
+*   add question
+
+*   publish campaign
+
+    *   copy link
+
+    *   qr code download
+
+    *   preview campaign
+
+*   Campaign branding ( theme design )
+
+    *   welcome screen
+
+        *   bg-color change
+
+        *   logo change
+
+    *   overall theme
+
+        *   button color change
+
+        *   text color change
+
+## Campaign Preview Screen: 📱
+
+*   Campaign survey preview screens
+
+    *   laptop
+
+    *   mobile
+<br/>
+
+# List Campaign Page
+
+<br/>
+
+## Options:
+
+*   export pdf
+
+*   filter `[ recent, popular, oldest ]`
+
+*   search
+
+## Table row options:
+
+*   edit option
+
+*   preview campaign
+
+*   qr code `( see & download )`
+
+*   campaign status `enable / disable`
+
+*   view
+
+*   mail send option `( to anyone )`
+
+*   copy link `( share option )`
+
+*   delete option
 
 <br/>
 
