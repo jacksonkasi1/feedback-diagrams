@@ -1,1 +1,285 @@
+---
+id: qk3xzcz1
+title: Feedback design
+file_version: 1.1.2
+app_version: 1.10.3
+---
 
+# Website ( feedback.com ) 🌐
+
+*   home
+
+*   feature
+
+*   pricing
+
+*   template `i can see sample demo campaign`
+
+*   about
+
+*   contact `( form entry) with cloud flare verification`
+
+    <br/>
+
+# security 🔒
+
+*   site verification [cloudflare](https://cloudflare.com/)
+
+**Auth Logic:**
+
+*   sign up
+
+*   login
+
+*   forget pass
+
+*   resend OTP
+
+*   OTP verification `( email otp )`
+
+*   magic link `login`
+
+> sign up 👀 > he can choose a payment plan also ( free & premium )
+
+**Third-party authentication provider:**
+
+*   google
+
+*   linked-in
+
+<br/>
+
+<!--MERMAID {width:100}-->
+```mermaid
+graph LR
+A[security] -->|Site verification| B(cloudflare)
+A -->|Auth Logics| C(Auth Logics)
+C -->|Sign up| D(sign up)
+C -->|Login| E(login)
+C -->|Forget pass| F(Forget pass)
+C -->|Resend OTP| G(Resend OTP)
+C -->|Email OTP verification | H(OTP verification)
+C -->|Magic link login| I(Magic link login)
+D -->|Sign up > choose payment plan 'free & premium'| J(Choose payment plan)
+A -->| | K(Third party auth provider)
+K -->| | L(google)
+K -->| | M(linked)
+```
+<!--MCONTENT {content: "graph LR<br/>\nA\\[security\\] \\-\\-\\>|Site verification| B(cloudflare)<br/>\nA \\-\\-\\>|Auth Logics| C(Auth Logics)<br/>\nC \\-\\-\\>|Sign up| D(sign up)<br/>\nC \\-\\-\\>|Login| E(login)<br/>\nC \\-\\-\\>|Forget pass| F(Forget pass)<br/>\nC \\-\\-\\>|Resend OTP| G(Resend OTP)<br/>\nC \\-\\-\\>|Email OTP verification | H(OTP verification)<br/>\nC \\-\\-\\>|Magic link login| I(Magic link login)<br/>\nD \\-\\-\\>|Sign up > choose payment plan 'free & premium'| J(Choose payment plan)<br/>\nA \\-\\-\\>| | K(Third party auth provider)<br/>\nK \\-\\-\\>| | L(google)<br/>\nK \\-\\-\\>| | M(linked)<br/>"} --->
+
+<br/>
+
+# Feedback App 🖥️
+
+## Dashboard Page
+
+*   total feedback
+
+*   today feedback
+
+*   total campaign
+
+*   current active campaign
+
+*   top 5 campaign
+
+    <br/>
+
+feedback analyze counts chart:
+
+<br/>
+
+<div align="center"><img src="https://firebasestorage.googleapis.com/v0/b/swimmio-content/o/repositories%2FZ2l0aHViJTNBJTNBZmVlZGJhY2stZGlhZ3JhbXMlM0ElM0FqYWNrc29ua2FzaTE%3D%2F21d1f082-2443-4570-b336-a6ee12a701da.png?alt=media&token=f3f75ff1-f881-412c-b141-9ba487b9d6d6" style="width:'50%'"/></div>
+
+<br/>
+
+## Account Page
+
+*   profile view & edit
+
+*   connect google `( auth option )`
+
+*   password change option
+
+*   2fa option
+
+## Plans Page
+
+*   free plan ( 1 campaign only )
+
+*   premium plan ( unlimited campaign )
+
+*   business plan ⚠️ ( holding )
+
+<br/>
+
+|Plan    |Campaign Limit     |Custom Domain             |
+|--------|-------------------|--------------------------|
+|Free    |1 campaign only    |Not available             |
+|Premium |Unlimited campaigns|Not available             |
+|Business|Unlimited campaigns|Custom domain (⚠️ holding)|
+
+<br/>
+
+## payment gateways
+
+*   razorpay
+
+    <br/>
+
+# Create Campaign Page
+
+## Questions Types: 📖
+
+*   welcome screen
+
+*   radio option question
+
+*   multi check box option question
+
+*   start rating option question
+
+*   emoji reaction option question
+
+*   form entry
+
+    *   name
+
+    *   email
+
+    *   age
+
+    *   gender
+
+    *   description
+
+*   nsp option question `0 - 10 option`
+
+## Questions options / features: ✨
+
+*   Duplicate question
+
+*   Add question
+
+*   Publish campaign
+
+    *   Copy link
+
+    *   QR code download
+
+    *   Preview campaign
+
+*   Campaign branding ( theme design )
+
+    *   Welcome screen
+
+        *   bg-color change
+
+        *   logo change
+
+    *   Overall theme
+
+        *   Button color change
+
+        *   Text color change
+
+## Campaign Preview Screen: 📱
+
+*   Campaign survey preview screens
+
+    *   Laptop
+
+    *   Mobile
+<br/>
+
+# List Campaign Page
+
+## Options:
+
+*   Export PDF
+
+*   Filter `[ recent, popular, oldest ]`
+
+*   Search
+
+## Table row options:
+
+*   edit option
+
+*   preview campaign
+
+*   qr code `( see & download )`
+
+*   campaign status `enable / disable`
+
+*   view
+
+*   mail send option `( to anyone )`
+
+*   copy link `( share option )`
+
+*   delete option
+
+## Campaign Report Page 📃
+
+### Options:
+
+*   Export PDF
+
+See all questions `user selected options counts`
+
+<br/>
+
+## Survey Flow 🌱
+
+*   welcome screen
+
+*   submit all options
+
+*   submit animations screen
+<br/>
+
+* * *
+
+<br/>
+
+# Project Tech things 🧑‍💻
+
+<br/>
+
+### Third party library 📚
+
+*   [reactour](https://www.npmjs.com/package/reactour) `( this show first time only )`
+
+*   [react-turnstile](https://www.npmjs.com/package/react-turnstile)
+
+## Third Party Integrations 🎉
+
+<br/>
+
+**Open AI:**
+
+Generate Questions by AI
+
+<br/>
+
+<br/>
+
+| Name          | Status   | Description                                                |
+| ------------- | -------- | ---------------------------------------------------------- |
+| Open AI       | TODO     | Generate questions with options by AI based on user input  |
+
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+This file was generated by Swimm. [Click here to view it in the app](https://app.swimm.io/repos/Z2l0aHViJTNBJTNBZmVlZGJhY2stZGlhZ3JhbXMlM0ElM0FqYWNrc29ua2FzaTE=/docs/qk3xzcz1).
