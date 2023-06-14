@@ -124,11 +124,10 @@ feedback analyze counts chart:
 ## payment gateways
 
 *   razorpay
-<br/>
+
+    <br/>
 
 # Create Campaign Page
-
-<br/>
 
 ## Questions Types: 📖
 
@@ -158,52 +157,50 @@ feedback analyze counts chart:
 
 ## Questions options / features: ✨
 
-*   duplicate question
+*   Duplicate question
 
-*   add question
+*   Add question
 
-*   publish campaign
+*   Publish campaign
 
-    *   copy link
+    *   Copy link
 
-    *   qr code download
+    *   QR code download
 
-    *   preview campaign
+    *   Preview campaign
 
 *   Campaign branding ( theme design )
 
-    *   welcome screen
+    *   Welcome screen
 
         *   bg-color change
 
         *   logo change
 
-    *   overall theme
+    *   Overall theme
 
-        *   button color change
+        *   Button color change
 
-        *   text color change
+        *   Text color change
 
 ## Campaign Preview Screen: 📱
 
 *   Campaign survey preview screens
 
-    *   laptop
+    *   Laptop
 
-    *   mobile
+    *   Mobile
 <br/>
 
 # List Campaign Page
 
-<br/>
-
 ## Options:
 
-*   export pdf
+*   Export PDF
 
-*   filter `[ recent, popular, oldest ]`
+*   Filter `[ recent, popular, oldest ]`
 
-*   search
+*   Search
 
 ## Table row options:
 
@@ -222,6 +219,65 @@ feedback analyze counts chart:
 *   copy link `( share option )`
 
 *   delete option
+
+## Campaign Report Page 📃
+
+### Options:
+
+*   Export PDF
+
+See all questions `user selected options counts`
+
+<br/>
+
+## Survey Flow 🌱
+
+*   welcome screen
+
+*   submit all options
+
+*   submit animations screen
+<br/>
+
+* * *
+
+<br/>
+
+# Project Tech things 🧑‍💻
+
+<br/>
+
+### Third party library 📚
+
+*   [reactour](https://www.npmjs.com/package/reactour) `( this show first time only )`
+
+*   [react-turnstile](https://www.npmjs.com/package/react-turnstile)
+
+## Third Party Integrations 🎉
+
+<br/>
+
+**Open AI:**
+
+Generate Questions by AI
+
+<br/>
+
+<br/>
+
+|<br/>|<br/>|
+|-----|-----|
+|<br/>|<br/>|
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
 
 <br/>
 
