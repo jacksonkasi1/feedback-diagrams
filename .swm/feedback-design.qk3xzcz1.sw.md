@@ -114,9 +114,11 @@ feedback analyze counts chart:
 
 <br/>
 
-|Plan|Campaign Limit |
-|----|---------------|
-|Free|1 campaign only|
+| Plan      | Campaign Limit       | Custom Domain       |
+|-----------|----------------------|---------------------|
+| Free      | 1 campaign only      | Not available       |
+| Premium   | Unlimited campaigns  | Not available       |
+| Business  | Unlimited campaigns  | Custom domain (⚠️ holding) |
 
 <br/>
 
