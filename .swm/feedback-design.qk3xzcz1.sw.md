@@ -5,7 +5,7 @@ file_version: 1.1.2
 app_version: 1.10.3
 ---
 
-## Website ( feedback.com ) 🌐
+# Website ( feedback.com ) 🌐
 
 *   home
 
@@ -21,7 +21,7 @@ app_version: 1.10.3
 
     <br/>
 
-## security 🔒
+# security 🔒
 
 *   site verification [cloudflare](https://cloudflare.com/)
 
@@ -51,57 +51,78 @@ app_version: 1.10.3
 
 <!--MERMAID {width:100}-->
 ```mermaid
-<br/>graph TD;
-A-->B;
-A-->C;
-B-->D;
-C-->D;
+graph LR
+A[security] -->|Site verification| B(cloudflare)
+A -->|Auth Logics| C(Auth Logics)
+C -->|Sign up| D(sign up)
+C -->|Login| E(login)
+C -->|Forget pass| F(Forget pass)
+C -->|Resend OTP| G(Resend OTP)
+C -->|Email OTP verification | H(OTP verification)
+C -->|Magic link login| I(Magic link login)
+D -->|Sign up > choose payment plan 'free & premium'| J(Choose payment plan)
+A -->| | K(Third party auth provider)
+K -->| | L(google)
+K -->| | M(linked)
 ```
-<!--MCONTENT {content: "<br/>graph TD;<br/>\nA\\-\\-\\>B;<br/>\nA\\-\\-\\>C;<br/>\nB\\-\\-\\>D;<br/>\nC\\-\\-\\>D;<br/>"} --->
+<!--MCONTENT {content: "graph LR<br/>\nA\\[security\\] \\-\\-\\>|Site verification| B(cloudflare)<br/>\nA \\-\\-\\>|Auth Logics| C(Auth Logics)<br/>\nC \\-\\-\\>|Sign up| D(sign up)<br/>\nC \\-\\-\\>|Login| E(login)<br/>\nC \\-\\-\\>|Forget pass| F(Forget pass)<br/>\nC \\-\\-\\>|Resend OTP| G(Resend OTP)<br/>\nC \\-\\-\\>|Email OTP verification | H(OTP verification)<br/>\nC \\-\\-\\>|Magic link login| I(Magic link login)<br/>\nD \\-\\-\\>|Sign up > choose payment plan 'free & premium'| J(Choose payment plan)<br/>\nA \\-\\-\\>| | K(Third party auth provider)<br/>\nK \\-\\-\\>| | L(google)<br/>\nK \\-\\-\\>| | M(linked)<br/>"} --->
 
 <br/>
 
-## Goals
-
-Main KPIs of this feature
-
-## High level design
-
-*   {{Flow chart, like this one}}
+# Feedback App 🖥️
 
 <br/>
 
-<!--MERMAID {width:100}-->
-```mermaid
-sequenceDiagram
-Service A->>+Service B: GET /objects/{id}
-Service B-->>Service A: 200 OK (object)
-Service A->>+Service C: GET /data/{object\_internal\_id}
-<br/>Service C-->>Service A: 200 OK
-```
-<!--MCONTENT {content: "sequenceDiagram<br/>\nService A->>+Service B: GET /objects/{id}<br/>\nService B\\-\\-\\>>Service A: 200 OK (object)<br/>\nService A->>+Service C: GET /data/{object\\_internal\\_id}<br/>\n<br/>Service C\\-\\-\\>>Service A: 200 OK<br/>"} --->
+## Dashboard Page
+
+*   total feedback
+
+*   today feedback
+
+*   total campaign
+
+*   current active campaign
+
+*   top 5 campaign
+<br/>
+
+feedback analyze counts chart:
 
 <br/>
 
-*   DB changes
+<div align="center"><img src="https://firebasestorage.googleapis.com/v0/b/swimmio-content/o/repositories%2FZ2l0aHViJTNBJTNBZmVlZGJhY2stZGlhZ3JhbXMlM0ElM0FqYWNrc29ua2FzaTE%3D%2F21d1f082-2443-4570-b336-a6ee12a701da.png?alt=media&token=f3f75ff1-f881-412c-b141-9ba487b9d6d6" style="width:'50%'"/></div>
 
-*   UI components
+<br/>
 
-*   What is stored (e.g., in the state, local storage...)
+## Account Page
+
+*   profile view & edit
+
+*   connect google `( auth option )`
+
+*   password change option
+
+*   2fa option
+
+## Plans Page
+
+*   free plan ( 1 campaign only )
+
+*   premium plan ( unlimited campaign )
+
+*   business plan ⚠️ ( holding )
+
+<br/>
+
+|Plan|Campaign Limit |
+|----|---------------|
+|Free|1 campaign only|
+
+<br/>
+
+<br/>
 
 ## Third party integrations
-
-*   Logs
-
-*   Analytics
-
-## Tests to be added
-
-## Migrations
-
-## Security implications
-
-## Roll-out plan
 
 <br/>
 
