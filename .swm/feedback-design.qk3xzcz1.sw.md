@@ -265,9 +265,10 @@ Generate Questions by AI
 
 <br/>
 
-|<br/>|<br/>|
-|-----|-----|
-|<br/>|<br/>|
+| Name          | Status   | Description                                                |
+| ------------- | -------- | ---------------------------------------------------------- |
+| Open AI       | TODO     | Generate questions with options by AI based on user input  |
+
 
 <br/>
 
