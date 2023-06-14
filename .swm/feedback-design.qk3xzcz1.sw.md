@@ -18,7 +18,8 @@ app_version: 1.10.3
 *   about
 
 *   contact `( form entry) with cloud flare verification`
-<br/>
+
+    <br/>
 
 ## security 🔒
 
@@ -40,13 +41,24 @@ app_version: 1.10.3
 
 > sign up 👀 > he can choose a payment plan also ( free & premium )
 
-<br/>
-
 **Third-party authentication provider:**
 
 *   google
 
 *   linked-in
+
+<br/>
+
+<!--MERMAID {width:100}-->
+```mermaid
+<br/>graph TD;
+A-->B;
+A-->C;
+B-->D;
+C-->D;
+```
+<!--MCONTENT {content: "<br/>graph TD;<br/>\nA\\-\\-\\>B;<br/>\nA\\-\\-\\>C;<br/>\nB\\-\\-\\>D;<br/>\nC\\-\\-\\>D;<br/>"} --->
+
 <br/>
 
 ## Goals
